@@ -1,10 +1,18 @@
+@import url(
+  https://fonts.google.com/specimen/Manrope);
+
+:root {
+  --primary-light: hsl(193, 38%, 86%);
+  --primary-accent: hsl(150, 100%, 66%);
+  --neutral-light: hsl(217, 19%, 38%);
+  --neutral-mid: hsl(217, 19%, 24%);
+  --neutral-dark: hsl(218, 23%, 16%);
+}
+
 body {
+  background-color: var(--neutral-dark);
+  font-family: 'Manrope', sans-serif, 800;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
